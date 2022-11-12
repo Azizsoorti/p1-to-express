@@ -1,0 +1,227 @@
+.nav-link {
+  color: black;
+  transition: all 0.5s ease 0s;
+
+} 
+
+.nav-link:hover {
+  color: rgb(73, 175, 243);
+}
+
+.btn_banner{
+  background-color: white;
+  transition: all 0.5s ease 0s;
+  color: black
+}
+
+.btn_banner:hover {
+  background-color:  rgb(73, 175, 243);
+  text-decoration: none;
+ border: 1px solid white;
+ color: white;
+}
+
+img[ alt="beleive"] {
+  width: 100%;
+}
+
+.btn_believe{
+  background-color:  rgb(105, 194, 253);
+  transition: all 0.3;
+  width: 40%;
+}
+
+.btn_believe:hover {
+  background-color: white;
+  text-decoration: none;
+ border: 2px solid black;
+ color: black !important;
+  ;
+}
+.features_col{
+background-color:rgb(238, 242, 245); 
+transition: all 0.5s ease 0s;
+}
+.features_col:hover{
+background-color: rgb(105, 194, 253); ;
+color: aliceblue;
+}
+
+input{
+  padding-left: 1rem;
+}
+.price_card{
+  transition: all 0.7s ease 0s;
+}
+
+.price_card:hover{
+background-color: rgb(105, 194, 253) !important;
+border: 2px solid rgb(238, 242, 245);
+
+}
+.download_btn-inner{
+  transition: all 0.7s ease 0s;
+}
+.download_btn-inner:hover{
+background-color:  rgb(105, 194, 253) !important;
+border: 1px solid white;
+}
+
+.video_area{
+
+  height: 85vh;
+  width: 100%;
+  background-image: url(./images/video-area.webp) ;
+  background-size: cover;
+  background-position: center; 
+  overflow: hidden;
+}
+.vid{
+  height: 100vh;
+  background-image: linear-gradient(0deg, #3ea7ff 0%, #42d1ff 100%);
+  display: flex;
+  opacity: .6;
+}
+.vid_icon{
+  width: 100%;
+  background-image: url(./images/video_icon.webp) ;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+
+
+@media screen and (max-width:990px) {
+  .banner_row{
+    text-align: center;
+    margin: 4rem 1.5rem 2.5rem 1.5rem;
+  }
+.copy_row{
+  display: flex;
+  flex-direction: column;
+}
+.copy_col8{
+  width: 100%;
+}
+.copy_col4{
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  padding-bottom: ;
+}
+}
+
+
+
+@media screen and (max-width:576px) {
+
+
+  .btn_banner{
+  
+   max-width: 10rem;
+   height: 2.5rem;
+   padding: 0.5rem 0.3rem !important;
+margin: 0 auto 2rem auto ;
+  }
+
+.banner_row{
+  text-align: center;
+  padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+}
+
+.categories_row{
+  padding: 0 1.5rem;
+}
+
+img[ alt="beleive"]{
+margin-top: 2.5rem;
+}
+
+.believe_row{
+  text-align: center;
+  padding: 1rem 1.5rem;
+}
+
+img[alt="card_image"]{
+  width: 100%;
+}
+
+.price_card {
+  width: 100%;
+}
+
+
+.bottom_card{
+  text-align: center;
+  
+}
+.copy_row{
+  padding: 0 1.5rem !important; 
+ }
+
+
+
+
+}
+
+
+@media screen and (max-width:770px){
+  .card-feature_col_12{
+    padding: 0 1.5rem;
+  }
+.questions_col3{
+  text-align: center;
+ margin-bottom: 3rem; 
+}
+.questions_col9{
+  text-align: center; 
+  padding: 0 1.5rem !important; 
+
+}
+.bottom_card{
+  text-align: center;
+}
+
+.footer_col6{
+  padding: 1.5rem 1.5rem;
+}
+
+.footer_col3{
+  padding: 1.5rem 1.5rem;
+  
+}
+
+.download_btn{
+display: flex;
+justify-content: center;
+position: relative;
+
+}
+.download_left{
+display: flex;
+margin-left: 1rem;
+}
+.download_right{
+ 
+  display: flex;
+  position: absolute;
+  margin-left: 5rem;
+}
+
+.subscribe_btn{
+  margin-top: 1.5rem;
+  width: 12rem;
+}
+
+.btn_banner{
+  
+  max-width: 10rem;
+  height: 2.5rem;
+  padding: 0.5rem 0.3rem !important;
+margin: 0 auto 2rem auto ;
+ }
+ .copy_col4{
+  padding-bottom: 4rem;
+ }
+}
+
